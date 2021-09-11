@@ -11,7 +11,7 @@
         {
             "method": "GET",
             "path": "/fakultas/coba",
-            "hadler": "fakultas.coba",
+            "handler": "fakultas.coba",
             "config": {
                 "policies": []
             }

@@ -11,7 +11,7 @@ const {
 module.exports = {
 
     async coba(ctx) {
-        return 'Hello, world';
+        return ctx ? ctx : 'Hello, world';
     },
 
     /**
