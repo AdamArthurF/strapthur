@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fakultas",
+  "info": {
+    "name": "Fakultas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string"
+    }
+  }
+}
