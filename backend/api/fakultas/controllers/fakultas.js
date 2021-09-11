@@ -10,6 +10,10 @@ const {
 
 module.exports = {
 
+    async coba(ctx) {
+        return ctx ? ctx : 'Hello, world';
+    },
+
     /**
      * Retrieve records.
      *
