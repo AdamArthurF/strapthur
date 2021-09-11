@@ -1,52 +1,60 @@
 {
-  "routes": [
-    {
-      "method": "GET",
-      "path": "/fakultas",
-      "handler": "fakultas.find",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/fakultas/count",
-      "handler": "fakultas.count",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "GET",
-      "path": "/fakultas/:id",
-      "handler": "fakultas.findOne",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "POST",
-      "path": "/fakultas",
-      "handler": "fakultas.create",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "PUT",
-      "path": "/fakultas/:id",
-      "handler": "fakultas.update",
-      "config": {
-        "policies": []
-      }
-    },
-    {
-      "method": "DELETE",
-      "path": "/fakultas/:id",
-      "handler": "fakultas.delete",
-      "config": {
-        "policies": []
-      }
-    }
-  ]
+    "routes": [
+        {
+            "method": "GET",
+            "path": "/fakultas/coba",
+            "hadler": "fakultas.coba",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/fakultas",
+            "handler": "fakultas.find",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/fakultas/count",
+            "handler": "fakultas.count",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "GET",
+            "path": "/fakultas/:id",
+            "handler": "fakultas.findOne",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "POST",
+            "path": "/fakultas",
+            "handler": "fakultas.create",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "PUT",
+            "path": "/fakultas/:id",
+            "handler": "fakultas.update",
+            "config": {
+                "policies": []
+            }
+        },
+        {
+            "method": "DELETE",
+            "path": "/fakultas/:id",
+            "handler": "fakultas.delete",
+            "config": {
+                "policies": []
+            }
+        }
+    ]
 }
