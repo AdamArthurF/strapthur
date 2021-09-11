@@ -2,16 +2,16 @@
     "routes": [
         {
             "method": "GET",
-            "path": "/fakultas/coba",
-            "hadler": "fakultas.coba",
+            "path": "/fakultas",
+            "handler": "fakultas.find",
             "config": {
                 "policies": []
             }
         },
         {
             "method": "GET",
-            "path": "/fakultas",
-            "handler": "fakultas.find",
+            "path": "/fakultas/coba",
+            "hadler": "fakultas.coba",
             "config": {
                 "policies": []
             }
